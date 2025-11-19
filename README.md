@@ -1,22 +1,35 @@
 Heshva Soni Portfolio
+
 A personal portfolio website built to showcase my skills and experience.
 
 🔗 Live Demo
+
 https://heshvasoni.vercel.app/
 
+
 💻 Features
+
 Interactive skill showcase
+
 Project gallery with dynamic content
+
 Smooth animations with Framer Motion
+
 Fully responsive design for mobile and desktop
+
 
 🛠 Technologies Used
 
 Next.js
+
 React 
+
 Tailwind CSS 
+
 TypeScript 
+
 Framer Motion 
+
 Vercel
 
 
