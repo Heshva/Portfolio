@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-, "src/sanity/schemaTypes/experience.js", "src/sanity/schemaTypes/index.js", "src/sanity/schemaTypes/pageInfo.js", "src/sanity/schemaTypes/skill.js"  ],
+  ],
   "exclude": ["node_modules"]
  }
