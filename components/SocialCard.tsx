@@ -28,7 +28,7 @@ export const SocialCard: React.FC = () => {
     },
   ];
 
-  const handleClick = (social: SocialLink, e: React.MouseEvent) => {
+  const handleClick = (social: SocialLink) => {
     if (social.isEmail) {
       navigator.clipboard?.writeText("heshvaasoni@gmail.com");
       setCopiedHandle(social.label);
@@ -47,7 +47,7 @@ export const SocialCard: React.FC = () => {
         <a
           key={social.label}
           href={social.href}
-          onClick={(e) => handleClick(social, e)}
+          onClick={() => handleClick(social)}
           target={social.isEmail ? undefined : "_blank"}
           rel={social.isEmail ? undefined : "noopener noreferrer"}
           className="relative font-sans text-xs sm:text-[13px] font-bold tracking-[0.14em] text-[#221F1E]/80 hover:text-[#221F1E] transition-colors py-1 group cursor-pointer"

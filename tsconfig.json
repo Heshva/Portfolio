@@ -32,8 +32,6 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "build_dir/types/**/*.ts",
-    "build_dir/dev/types/**/*.ts",
     "**/*.mts",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts"

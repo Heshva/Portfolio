@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { X, Award, GraduationCap, Briefcase, Code, MapPin, CheckCircle2 } from "lucide-react";
+import { X, GraduationCap, Briefcase, Code, MapPin, CheckCircle2 } from "lucide-react";
 
 interface AboutModalProps {
   isOpen: boolean;

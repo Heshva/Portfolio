@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { X, Check, Send, Mail, MapPin } from "lucide-react";
+import { X, Check, Send, Mail } from "lucide-react";
 import confetti from "canvas-confetti";
 
 interface ContactModalProps {

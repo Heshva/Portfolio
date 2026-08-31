@@ -5,7 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { PulsingBurstIcon } from "./PulsingBurstIcon";
 
-export const BioCard: React.FC<{ onReadMore?: () => void }> = ({ onReadMore }) => {
+export const BioCard: React.FC = () => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 16 }}

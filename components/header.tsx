@@ -6,17 +6,7 @@ import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
-interface HeaderProps {
-  onOpenContact?: () => void;
-  onOpenProjects?: () => void;
-  onOpenAbout?: () => void;
-}
-
-export const Header: React.FC<HeaderProps> = ({
-  onOpenContact,
-  onOpenProjects,
-  onOpenAbout,
-}) => {
+export const Header: React.FC = () => {
   const pathname = usePathname();
   const [hoveredItem, setHoveredItem] = useState<string | null>(null);
   const [menuOpen, setMenuOpen] = useState(false);
